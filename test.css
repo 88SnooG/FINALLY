@@ -1,0 +1,173 @@
+
+.menu-area li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 30px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  font-family: 'Scheherazade New', serif;
+}
+.menu-area li{
+  list-style: none;
+  display: inline-block;
+}
+.custom-padding{
+  padding-top: 25px;
+}
+nav{
+  position: relative;
+  padding: 10px 20px 10px 10px;
+  text-align: right;
+  z-index: 1;
+  background: hwb(41 0% 80% / 0.808);
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+}
+.logo img{
+  width: 200px;
+  float: left;
+  padding-left: 2%;
+  height: 100px;
+
+}
+.menu-area li a:hover{
+  background: hsla(32, 45%, 31%, 0.84);
+  color: rgb(80, 66, 66);
+  
+}
+
+.Container{
+  width: auto;
+  height: 175vh;
+  background-color: rgb(116, 91, 35);
+}
+h1{
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 80px;
+  margin-left: 125px;
+}
+h2{
+  float: right;
+  padding-right: 300px;
+  padding-top: 150px;
+}
+.flip-card-container{
+  height: 400px;
+  width: 300px;
+  perspective: 1000px;
+  float: left;
+}
+.row2{
+  clear: both;
+}
+.Flip-card{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-card-container:hover .Flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  
+}
+.flip-card-front{
+  background-color: rgb(181, 100, 33);
+  color: #fff;
+  z-index: 1;
+}
+.flip-card-back{
+  background-color: rgba(79, 109, 22, 0.47);
+  color: #fff;
+  transform: rotateY(180deg);
+}
+.flip-card-front img{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+.flip-card-back p{
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+.flip-card-back p span{
+  display: block;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 1.25rem;
+}
+.Spongebob-Card{
+  margin-top: 100px;
+  /* margin-left: 135px; */
+}
+.Patrick-Card{
+  margin-top: 0px;
+  /* margin-left: 225px; */
+  /* float: left; */
+}
+.Gary{
+  margin-top: 0px;
+  /* margin-right: 169px; */
+  /* float: right; */
+}
+.Squidward{
+  margin-top: 100px;
+  /* margin-left: 135px; */
+}
+.MrKrabs{
+  margin-top: 0px;
+  margin-left: 50px;
+  /* float: left; */
+}
+.Sandy{
+  margin-top: 0px;
+  /* margin-right: 169px; */
+  /* float: right; */
+}
+.Footer{
+  background-color: rgb(212, 192, 15);
+  height: 5vh
+}
+.fa-facebook{
+  margin-right: 10px;
+  font-size: 1.8em;
+  float: right;
+}
+
+.fa-twitter{
+  margin-right: 10px;
+  font-size: 1.8em;
+  float: right;
+}
+.fa-instagram-square{
+  margin-right: 10px;
+  font-size: 1.8em;
+  float: right;
+}
+/* break*/
+
+img {
+  float: left;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
